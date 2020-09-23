@@ -33,15 +33,15 @@ div.menu ul li a {
 }
 
 div.menu ul li a:hover  {
-    background-color: white;
-    color: #4d5791;
+    background-color: rgb(83, 46, 114);
+    color: #e6d8d6;
 }
 
 div.hero {
     height: 350px;
-    background-color: #b4c6f0;
+    background-color: #f0ccb4;
     background-image: url('/bg.png');
-    background-size: 400px;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 40px;
@@ -60,7 +60,7 @@ div.hero h1 {
 }
 
 div.hero h2 {
-    color: #4d5791;
+    color: #090a04;
 }
 
 .container {
