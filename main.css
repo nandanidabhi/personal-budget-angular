@@ -11,7 +11,7 @@ div.menu {
     width: 100%;
     background-color: #4d5791;
     height: 44px;
-    padding: 0 40px;
+    padding: 0 30px;
 }
 
 div.menu ul,
@@ -21,12 +21,19 @@ div.menu ul li {
     list-style: none;
     display: inline-block;
 }
-
+.skip-to-content-link {
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+  }
+  .skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
 div.menu ul li a {
     display: block;
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 44px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-decoration: none;
     color: #fff;
     margin: 0;
@@ -39,12 +46,12 @@ div.menu ul li a:hover  {
 
 div.hero {
     height: 350px;
-    background-color: #f0ccb4;
+    background-color: #8373dd;
     background-image: url('/bg.png');
-    background-size: 300px;
+    background-size: 550px;
     background-repeat: no-repeat;
     background-position: center bottom;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 div.hero h1,
@@ -54,17 +61,18 @@ div.hero h2 {
 }
 
 div.hero h1 {
-    color: #fff;
-    font-size: 4.2em;
+    color: rgb(37, 13, 92);
+    font-size: 3.2em;
     margin-bottom: 20px;
 }
 
 div.hero h2 {
-    color: #090a04;
-}
+    color: rgba(237, 236, 240, 0.884);
+    font-size: 2.2em;               
+    }
 
 .container {
-    padding: 40px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -74,21 +82,36 @@ div.hero h2 {
 }
 
 .bottom {
-    height: 50px;
+    height: 110px;
     background-color: #b4c6f0;
-    padding: 40px;
+    padding: 10px;
 }
 
 .center {
     text-align: center;
 }
-
+.btn-search {
+    background: #424242;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1c1c1c;
+  }
+  .btn-search:link, .btn-search:visited {
+    color: #fff;
+  }
+  .btn-search:active, .btn-search:hover {
+    background: #1c1c1c;
+    color: #fff;
+  }
 .container div.text-box {
-    display: inline-block;
+    display: inline-grid;
     width: 100%;
-    max-width: 340px;
+    max-width: 250px;
     text-align: justify;
-    margin: 20px;
+    margin: 30px;
+    
 }
 
 @media screen and (min-width: 768px) {
