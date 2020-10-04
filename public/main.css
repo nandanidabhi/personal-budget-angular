@@ -108,8 +108,8 @@ div.hero h2 {
 .container div.text-box {
     display: inline-grid;
     width: 100%;
-    max-width: 250px;
-    text-align: justify;
+    max-width: 300px;
+    text-align: center;
     margin: 30px;
     
 }

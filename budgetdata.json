@@ -1,0 +1,39 @@
+{
+    "myBudget": [
+        {
+            "title": "Eat Out",
+            "budget": 40,
+            "backgroundColor": "#ffcd56"
+        },
+        {
+            "title": "Rent",
+            "budget": 385,
+            "backgroundColor": "#ff6384"
+        },
+        {
+            "title": "Groceries",
+            "budget": 60,
+            "backgroundColor": "#36a2eb"
+        },
+        {
+            "title": "Fee",
+            "budget": 200,
+            "backgroundColor": "#fd6b19"
+        },
+        {
+            "title": "Phone Bill",
+            "budget": 30,
+            "backgroundColor": "#B9C4FE"
+        },
+        {
+            "title": "Coffee",
+            "budget": 120,
+            "backgroundColor": "#00FF00"
+        },
+        {
+            "title": "Travel",
+            "budget": 200,
+            "backgroundColor": "#FF0000"
+        }
+    ]    
+}
