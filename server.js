@@ -8,7 +8,7 @@ const fs = require('fs');
 //Dev, STA
 app.use(cors());
 
-app.use('/',express.static('public'));
+//app.use('/',express.static('public'));
 
 
 app.get('/hello', (req, res) => {
