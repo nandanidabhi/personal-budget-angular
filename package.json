@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nandanidabhi/personal-budget/blob/master/index.html",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
