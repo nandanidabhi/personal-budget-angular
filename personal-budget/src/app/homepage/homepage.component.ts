@@ -31,7 +31,7 @@ export class HomepageComponent implements AfterViewInit {
   constructor(public dataService: DataService) { }
 
   ngAfterViewInit(): void {
-    if(this.dataService.myBudget.length == 0){
+    if(this.dataService.myBudget == undefined || this.dataService.myBudget.length == 0){
     this.dataService.getData()
     .subscribe((res: any) => {
       this.dataService.myBudget = res.MyBudget;
