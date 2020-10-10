@@ -31,10 +31,9 @@ body {
   position: relative;
 }
 
-svg {
-	width: 100%;
-    height: 450px;
-    align-content: center;
+	svg {
+    width: fit-content;
+    height: 500px;
 }
 
 path.slice{

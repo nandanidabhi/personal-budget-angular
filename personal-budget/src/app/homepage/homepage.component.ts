@@ -21,7 +21,7 @@ export class HomepageComponent implements AfterViewInit {
 };
   private svg;
   private margin = 50;
-  private width = 600;
+  private width = 500;
   private height = 500;
   // The radius of the pie chart is half the smallest side
   private radius = Math.min(this.width, this.height) / 2 - this.margin;
@@ -88,7 +88,9 @@ export class HomepageComponent implements AfterViewInit {
 private createColors(): void {
   this.colors = d3.scaleOrdinal()
   .domain(this.data.map(d => d.budget.toString()))
-  .range(['#c7d3ec', '#a5b8db', '#879cc4', '#677795', '#5a6782']);
+  .range(this.data.map(d => d.backgroundColor));
+
+  console.log(this.data.backgroundColor);
 }
 
 private drawChart(): void {
